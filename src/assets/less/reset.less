@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 清除内外边距 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+/* structural elements 结构元素 */
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+/* list elements 列表元素 */
+pre,
+/* text formatting elements 文本格式元素 */
+fieldset,
+lengend,
+button,
+input,
+textarea,
+/* form elements 表单元素 */
+th,
+td {
+  /* table elements 表格元素 */
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit
+}
+
+.el-header {
+  height: 75px !important;
+  line-height: 75px;
+  background-color: #212d3f;
+}
+
+.el-footer {
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-main {
+  text-align: center;
+  padding: 0 !important;
+}
+
+body>.el-container {
+  margin-bottom: 40px;
+}
+
+.el-message-box {
+  border: 1px solid #13a9e9;
+  background: #18283A;
+
+  .el-message-box__header {
+    .el-message-box__title {
+      color: #fff;
+    }
+
+    .el-message-box__headerbtn {
+      .el-message-box__close {
+        color: #fff;
+      }
+    }
+  }
+
+  .el-message-box__content {
+    color: #fff;
+  }
+
+  .el-message-box__btns {
+    .el-button {
+      padding: 10px 20px;
+      border: 1px solid #5390a3;
+      border-radius: 20px;
+      color: #fff;
+      background: transparent;
+    }
+
+    .el-button--primary {
+      border: none;
+      background: -webkit-linear-gradient(left, #088eec, #17b3e7) !important;
+      background: -o-linear-gradient(right, #088eec, #17b3e7) !important;
+      background: -moz-linear-gradient(right, #088eec, #17b3e7) !important;
+      background: linear-gradient(to right, #088eec, #17b3e7) !important;
+    }
+  }
+}
+
+.el-table__empty-block {
+  background-color: #1b2d40;
+}
+
+//统一滚动条样式
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 7px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  background: #15ade9;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.addShu {
+  font-style: normal;
+}
